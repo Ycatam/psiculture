@@ -1,12 +1,3 @@
 {
-    "data": [
-        {
-            "tem": "Mais um teste",
-            "ph": 12,
-            "qtdracao": 5,
-            "periodo": "Tarde",
-            "data": "2023-11-01",
-            "id": 747
-        }
-    ]
+  "data": []
 }

@@ -1,10 +1,10 @@
 <div class="container">
     <div [hidden]="submitted">
-        <h1>Cadastrar novo dado</h1>
+        <h1>Editar Dados</h1>
         <form (ngSubmit)="onSubmit()" #heroForm="ngForm">
             <div class="form-group">
                 <label for="name">Temperatura</label>
-                <input type="number" class="form-control" id="temp" required [(ngModel)]="model.temperatura"
+                <input type="number" class="form-control" id="temp" required [(ngModel)]="model.tem"
                     name="temperatura" #name="ngModel">
                 <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
                     Temperatura é requerido
@@ -43,8 +43,8 @@
             <button type="submit" class="btn btn-success" [disabled]="!heroForm.form.valid">
                 Salvar
             </button>
-            <button routerLink="/" class="btn btn-link">
-                Ir para Home
+            <button type="button" (click)="close()" class="btn btn-link">
+                Cancelar
             </button>
         </form>
     </div>
