@@ -6,7 +6,7 @@ The frontend of this application was developed with Angular, and the backend is 
 
 ## Deploy Address - GitHub Pages
 
-https://github.com/Ycatam/psiculture
+https://ycatam.github.io/psiculture/
 
 ## Figma Prototype
 
