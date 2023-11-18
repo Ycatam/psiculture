@@ -24,13 +24,13 @@ https://www.figma.com/file/K9e1o9kU0nEe6lPSSatw9Y/psiculture?type=design&mode=de
 - [x] Transfer data, through services, between components that are not directly related.
 - [x] Map components to routes in the routes module, creating an efficient navigation structure.
 - [x] Allow fluid navigation between different application pages through navigation links and buttons.
-- [x] Validate form fields with regular expressions (REGEX) and display error messages.
+- [ ] Validate form fields with regular expressions (REGEX) and display error messages.
 - [x] Implement masks on form fields when necessary to improve the user experience when entering data.
 - [x] Disable the submit button while the form is in an invalid state.
-- [x] Make API requests with appropriate handling of success and error responses with Promises.
+- [ ] Make API requests with appropriate handling of success and error responses with Promises.
 - [x] Make API requests with appropriate handling of success and error responses with Observables.
 - [x] Create the complete registration of an entity, including create, read, update and delete (CRUD) operations using an API, such as JSON Server.
-- [x] Use local storage (LocalStorage or SessionStorage) to store temporary data when necessary.
+- [ ] Use local storage (LocalStorage or SessionStorage) to store temporary data when necessary.
 - [x] Apply the ngFor structural directive to present a dynamic list of data in your application.
 - [x] Use the ngIf directive to control the showing or hiding of elements based on specific conditions.
 - [x] Format the data presentation with Pipes, according to the application requirements.
